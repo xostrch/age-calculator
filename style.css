@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Red Rose";
+    color: white;
+}
+
+body{
+    background-color:rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    background-color: rgb(73, 73, 73);
+    width: 35em;
+    display: flex;
+    border-radius: 1em;
+}
+
+.left, .right{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: linear-gradient(to top right, rgb(255, 81, 81) ,rgb(255, 43, 43));
+    width: 50%;
+    border-radius: 1em;
+    height: 10em;
+}
+
+.right{
+    background: none;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.input-date{
+    color: black;
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.5em;
+    border-radius: 0.5em;
+}
+
+.input-box, .button-box{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+
+.input-date:hover{
+    background-color: rgb(208, 208, 208);
+}
+
+.button-calculate{
+    background-color: white;
+    color: black;
+    border:none;
+    font-size: 1.5em;
+    margin-top: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.button-calculate:hover{
+    background-color: rgb(208, 208, 208);
+}
+
+.right-text{
+    font-size: 1.5em;
+}
+
+.button-clear{
+    background-color: rgb(255, 81, 81);
+    border:none;
+    font-size: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    margin-top: 1.5em;
+}
+
+.button-clear:hover{
+    background-color: rgb(255, 121, 121);
+}
+
+.color{
+    color: rgb(255, 81, 81);
+}
