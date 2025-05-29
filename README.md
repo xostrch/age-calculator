@@ -6,8 +6,7 @@ The result updates live as you select your birth date, giving you an instant, pr
 
 ## 🌐 Live Demo
 
-👉 [Check it out on Vercel](https://your-vercel-link.vercel.app)
-
+👉 [Check it out on Vercel](https://age-calculator-bice-two.vercel.app/)
 > Replace the link above with your actual Vercel deployment.
 
 ## ✨ Features
